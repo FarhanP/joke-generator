@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: rgb(36, 40, 88); */
+  display: flex;
+  font-family: sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  padding: 1.5rem;
+}
+
+.container {
+  text-align: center;
+  background-color: rgb(39, 19, 95);
+  box-shadow: 0 10px 41px 0 rgb(185, 224, 240);
+  border-radius: 5%;
+}
+
+.app-title {
+  font-size: 1.7rem;
+  color: rgb(240, 174, 99);
+}
+
+.joke {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 3.5rem;
+  width: auto;
+  font-style: italic;
+  height: 15%;
+  color: white;
+}
+
+.joke-button {
+  font-size: 1rem;
+  padding: 0.7rem;
+  cursor: pointer;
+  border: 0;
+  background-color: rgb(231, 156, 71);
+  box-shadow: 0 2px 51px 0 rgb(231, 156, 71);
+  color: white;
+  border-radius: 9px;
+}
+
+.joke-button:active {
+  transform: scale(0.95);
+}
+
+.joke-button:focus {
+  outline: 0;
+}
+
+/* Media queries */
+
+@media (min-width: 40rem) {
+  .container {
+    border-radius: 20px;
+    margin: 10rem;
+    min-width: 30vw;
+  }
+
+  .app-title {
+    font-size: 2.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+
+  .joke {
+    padding-bottom: 4rem;
+    font-size: 1.2rem;
+    width: auto;
+  }
+
+  .joke-button {
+    font-size: 1.2rem;
+    padding: 1rem;
+  }
+
+  @media (min-width: 1500px) {
+    .container {
+      margin: 30rem;
+    }
+  }
+}
