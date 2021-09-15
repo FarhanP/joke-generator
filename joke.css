@@ -35,8 +35,9 @@ body {
   align-content: center;
   width: auto;
   font-style: italic;
-  padding: 3rem 1rem 5rem 1rem;
+  padding: 3rem 2rem 5rem 2rem;
   color: white;
+  overflow: hidden;
 }
 
 .joke-button {
@@ -65,7 +66,6 @@ body {
   .container {
     border-radius: 20px;
     margin: 10rem;
-    min-width: 30vw;
   }
 
   .app-title {
