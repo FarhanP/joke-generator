@@ -20,6 +20,7 @@ body {
   background-color: rgb(39, 19, 95);
   box-shadow: 0 10px 41px 0 rgb(185, 224, 240);
   border-radius: 5%;
+  max-height: 100%;
 }
 
 .app-title {
@@ -32,10 +33,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  padding: 3.5rem;
   width: auto;
   font-style: italic;
-  height: 15%;
+  padding: 3rem 1rem 5rem 1rem;
   color: white;
 }
 
@@ -48,6 +48,7 @@ body {
   box-shadow: 0 2px 51px 0 rgb(231, 156, 71);
   color: white;
   border-radius: 9px;
+  margin-bottom: 2rem;
 }
 
 .joke-button:active {
@@ -75,7 +76,6 @@ body {
   .joke {
     padding-bottom: 4rem;
     font-size: 1.2rem;
-    width: auto;
   }
 
   .joke-button {
